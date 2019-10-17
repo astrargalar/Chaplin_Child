@@ -7,7 +7,7 @@
     functions.php del tema hijo.
     Este es el código (Cuidado al copiar y pegar que WordPress cambia automáticamente las comillas simples por 
     comillas tipográficas y así no funciona).
-    
+
 ~~~
 // Connect Child Theme and Parent Theme
 
@@ -22,3 +22,5 @@ wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', 
 }
 add_action( 'wp_enqueue_scripts', 'chaplin_child_enqueue_styles' );
 ~~~
+
+[screenshot.png]: /https://github.com/astrargalar/Chaplin_Child/blob/master/screenshot.png
