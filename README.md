@@ -1,5 +1,4 @@
 # Tema hijo basado en el tema Chaplin de Anders Norén
----
 
 [Aquí se puede bajar el tema padre Chaplin](https://andersnoren.se/themes/chaplin/).
 
@@ -8,7 +7,8 @@
     Este es el código (Cuidado al copiar y pegar que WordPress cambia automáticamente las comillas simples por 
     comillas tipográficas y así no funciona).
 
-~~~ php
+~~~ php #Indented code
+
 // Connect Child Theme and Parent Theme
 
 function chaplin_child_enqueue_styles() {
