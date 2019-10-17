@@ -1,4 +1,4 @@
-#Tema hijo basado en el tema Chaplin de Anders Norén
+# Tema hijo basado en el tema Chaplin de Anders Norén
 ---
     Funciona correctamente a la primera, excepto que es necesario añadir la referencia de FontAwesome en el archivo functions.php del tema hijo.
     Este es el código (Cuidado al copiar y pegar que WordPress cambia automáticamente las comillas simples por comillas tipográficas y así no funciona)
